@@ -554,20 +554,20 @@
 }
 .ql-snow .ql-stroke {
   fill: none;
-  stroke: #444;
+  /* stroke: #444; */
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-width: 2;
 }
 .ql-snow .ql-stroke-miter {
   fill: none;
-  stroke: #444;
+ /*  stroke: #444; */
   stroke-miterlimit: 10;
   stroke-width: 2;
 }
 .ql-snow .ql-fill,
 .ql-snow .ql-stroke.ql-fill {
-  fill: #444;
+ /*  fill: #444; */
 }
 .ql-snow .ql-empty {
   fill: none;
