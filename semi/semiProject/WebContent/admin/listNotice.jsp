@@ -28,6 +28,15 @@
 	
 	SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm");
 	
+/* 	int pageCount=1, pageBlock=5, startPage=1, endPage=1; // pageBlock: 한 페이지에 보여줄 페이지 블럭
+	if(count != 0) {
+		pageCount = (int)Math.ceil((double)count / pageSize); // 전체 페이지 수
+		startPage = ((currentPage-1)/pageBlock)*pageBlock+1; // 페이지 블럭 시작 번호
+		endPage = startPage + pageBlock -1; // 페이지 블럭 끝 번호
+		if(endPage > pageCount){
+			endPage = pageCount;
+		} // 전체 페이지가 10페이지인데 마지막 페이지가 11이면 안되므로 조건문 설정
+	} */
 %>
 <!DOCTYPE html>
 <html>
@@ -112,6 +121,7 @@
 <%
 		}
 %>
+
 	<%= NoticeBean.pageNumber(5) %>
 	</div>
 </body>

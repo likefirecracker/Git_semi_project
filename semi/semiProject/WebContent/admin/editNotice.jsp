@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="css/uppy.min.css">
     <link rel="stylesheet" href="css/jquery.steps.css">
     <link rel="stylesheet" href="css/jquery.timepicker.css">
-    <link rel="stylesheet" href="css/quill.snow.css">
+    <link rel="stylesheet" href="css/quill.snow.css?a=b">
     <!-- Date Range Picker CSS -->
     <link rel="stylesheet" href="css/daterangepicker.css">
     <!-- App CSS -->

@@ -68,7 +68,7 @@
 			<tr height="500">
 				<th colspan="1">글내용</th>
 				<%-- <td colspan="3"><%= n_content %></td> --%>
-				<td colspan="3">
+				<td colspan="3" style="text-align: left; vertical-align: top;">
 					<%= n_content %>
 				</td>
 			</tr>
